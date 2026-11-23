@@ -1,0 +1,37 @@
+# Core Backend Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-multipart>=0.0.10
+
+# Database & ORM
+SQLAlchemy>=2.0.30
+alembic>=1.14.0
+PyMySQL>=1.1.0
+cryptography>=44.0.0
+
+# Vector Database & Math
+faiss-cpu>=1.9.0
+numpy>=1.26.0
+scipy>=1.14.0
+
+# Multimodal & Document Extraction
+pypdf>=5.1.0
+pillow>=11.0.0
+reportlab>=4.2.0
+gTTS>=2.5.4
+pydub>=0.25.1
+
+# Frontend UI
+streamlit>=1.40.0
+requests>=2.32.0
+
+# AI Provider Clients (Configurable via Environment Variables)
+openai>=1.55.0
+
+# Testing & Quality
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+httpx>=0.28.0
+
